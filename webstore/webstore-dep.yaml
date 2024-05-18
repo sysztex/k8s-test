@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webstore
-          image: docker.io/sysztex/alpnginx:v1
+          image: docker.io/sysztex/alpnginx:v1-arm
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
